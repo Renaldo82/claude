@@ -21,6 +21,15 @@ Ich will meine Buchhaltung mit Claude schneller und besser machen. Ich arbeite m
 10. Einen Ablauf erst einmal von Hand sauber durchspielen, dann Skill daraus machen (SOP-skill-ablage).
 11. Auswertungen fragen ("Gewinn bisher?", "Wofür geben wir am meisten aus?"), zum Beispiel aus einer Export-Datei von lexoffice. Ändert nichts, guter Einstieg.
 
+Weitere Details aus den Newslettern, die du beim Abgleich mitdenken sollst:
+- So sieht ein Durchgang bei den AInauten aus: 28 Belege im Eingangsordner in Google Drive. Ergebnis: 8 gebucht mit Konto, Steuer und Zahlung, 3 doppelte aussortiert, 17 in Fremdwährung liegen gelassen.
+- Claude ordnet jedem Beleg auch die passende Zahlung auf dem Bankkonto zu.
+- Die Schutzregeln kommen vom Buchhaltungsprogramm: Gebucht wird nur auf Konten, die es dort schon gibt, frei erfundene Buchungen sind nicht möglich. Was gebucht ist, bleibt fest und lässt sich nur bewusst zurück in einen Entwurf holen. Am Ende prüft der Steuerberater noch einmal alles.
+- Das Regelwerk für Claude wird aus den echten Konten und Kategorien im Programm aufgebaut, nicht aus dem Gedächtnis.
+- Testfälle mit eingebauten Fallen, um zu prüfen, ob Claude gründlich genug ist: doppelte Belegnummer, Taxi am Sonntag, Hotel in Schweizer Franken, Rechnung mit richtiger Summe, aber falscher Mehrwertsteuer.
+- Faustregel zum Aufwand-Regler: starkes Modell mit niedrigerem Aufwand, kleines Modell mit höherem Aufwand. Im Test fand Opus die Fallen schon bei niedrigem Aufwand.
+- Die AInauten sagen ehrlich: Die meisten brauchen dafür keine KI, das Programm allein reicht oft. Claude lohnt sich für Sonderfälle, Auswertungen und Berichte.
+
 Bewusst anders als bei den AInauten: Zugangsschlüssel kommen nie in den Chat. Die lege ich selbst an und hinterlege sie selbst. Rabattcodes und ein Wechsel zu sevdesk sind kein Thema. Umsatzsteuerfragen bei ausländischen Anbietern klärt der Steuerberater.
 
 Mögliche Stufen: **A** Claude prüft meinen Belegordner nur und gibt mir eine Liste, ich buche selbst. **B** Claude lädt Belege über die Schnittstelle von lexoffice hoch, ich buche. **C** Claude legt Buchungen als Entwurf an. Bisherige Empfehlung: A.
